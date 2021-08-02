@@ -1,0 +1,22 @@
+.flightData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &__table {
+    width: 98%;
+    margin: auto;
+    @media screen and (min-width: 1000px) {
+      width: 80%;
+    }
+  }
+  &__controls {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    p {
+      margin: 8px;
+    }
+  }
+}
